@@ -5,7 +5,8 @@ RUN yum clean all -y && \
   yum clean all -y
 
 
-RUN mkdir /root/app
+RUN mkdir /root/app && \
+    mkdir /demo
 WORKDIR /root/app
 
 RUN git clone https://github.com/yuu-ymt/rhocp-demo-cdsupdater.git && \

@@ -1,13 +1,16 @@
 #!/bin/bash
 
+if [ -d /demo/rhocp-demo-contents ]; then
 
-if [-d ! /demo/rhocp-demo-contents ]
-
-git clone https://github.com/yuu-ymt/rhocp-demo-contents.git /demo
+cd /demo/rhocp-demo-contents
+git pull
 
 else 
 
-git push https://github.com/yuu-ymt/rhocp-demo-contents.git  /demo
+git clone https://github.com/yuu-ymt/rhocp-demo-contents.git /demo
+
+fi
+
 
 
 
