@@ -12,7 +12,5 @@ git clone https://github.com/yuu-ymt/rhocp-demo-contents.git /demo/contents
 fi
 
 
-tail -f /dev/null
-
 
 
