@@ -9,7 +9,7 @@ RUN mkdir /root/app && \
     mkdir /demo
 WORKDIR /root/app
 
-RUN git clone https://github.com/yuu-ymt/rhocp-demo-cdsupdater.git && \
+RUN git clone https://github.com/nakanishi140/rhocp-demo-cdsupdater.git && \
     mv rhocp-demo-cdsupdater/* ./ && \
     chmod +x update.sh
 
